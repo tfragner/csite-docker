@@ -9,11 +9,13 @@ Repository klonen
 </code>
 
 Beim Starten folgenden Befehl im Verzeichnis ausführen:
+
 <code>
   docker-compose -f csite-docker.yml up
 </code>
 
 bei Neustart vorher die Container löschen:
+
 <code>
   docker-compose -f csite-docker.yml down
 </code>
