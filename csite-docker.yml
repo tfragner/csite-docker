@@ -1,7 +1,7 @@
 version: '2'
 services:
     csite-app:
-        image: meroff/csite:gantt
+        image: meroff/csite
         environment:
             - SPRING_PROFILES_ACTIVE=prod,swagger
             - SPRING_DATASOURCE_URL=jdbc:mysql://csite-mysql:3306/csite?useUnicode=true&characterEncoding=utf8&useSSL=false
